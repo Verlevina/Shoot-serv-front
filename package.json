@@ -1,0 +1,39 @@
+{
+  "name": "shoot-serv",
+  "version": "1.0.0",
+  "description": "Проект, переводящий взаимоотношения организаторов соревнований по пулевой стрельбе и их участников в новую инновационную плоскость",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production babel src --out-dir dist --source-maps inline"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Verlevina/project-lvl1-s388.git"
+  },
+  "author": "Verlevina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Verlevina/project-lvl1-s388/issues"
+  },
+  "homepage": "https://github.com/Verlevina/project-lvl1-s388#readme",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "babel-eslint": "^10.0.1",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  },
+  "main": "index.html"
+}
