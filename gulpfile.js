@@ -8,7 +8,7 @@ const csso = require('gulp-csso');
 const rename = require('gulp-rename');
 const imagemin = require('gulp-imagemin');
 const webp = require('gulp-webp');
-const svgstore = require('gulp-svgstore');
+// const svgstore = require('gulp-svgstore');
 const posthtml = require('gulp-posthtml');
 const include = require('posthtml-include');
 const del = require('del');
@@ -51,7 +51,7 @@ gulp.task('server', () => {
 });
 gulp.task('refresh', () => {
   server.reload();
-  done();
+//  done();
 });
 
 
